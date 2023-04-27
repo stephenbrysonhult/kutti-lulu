@@ -1,12 +1,21 @@
+{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  
+{%- endstyle -%}
+
+<div>
+  <p>Custom section</p>
+</div>
+
 {% schema %}
-  {
-    "name": "Test Section",
-    "settings": []
+{
+  "name": "t:sections.test-section.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
   }
+  
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
