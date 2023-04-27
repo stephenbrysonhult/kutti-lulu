@@ -1,7 +1,4 @@
-{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
-
-{%- style -%}
-{%- endstyle -%}
+{{ 'test-section.css' | asset_url | stylesheet_tag }}
 
 <div class="custom-slider">
   {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
