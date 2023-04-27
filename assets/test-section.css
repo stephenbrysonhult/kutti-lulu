@@ -13,6 +13,7 @@
 
 .custom-slider-slide{
   flex: 0 0 20%;
+  border: 1px solid red;
 }
 .custom-slider-slide .card-wrapper {
   background: pink;
