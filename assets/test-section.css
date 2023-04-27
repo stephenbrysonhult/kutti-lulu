@@ -1,8 +1,5 @@
 .custom-slider{
   position: relative;
-  max-width: var(--custom-max-width);
-  width: 100%;
-  margin: 0 auto;
 }
 .custom-slider-container{
     background: red;
