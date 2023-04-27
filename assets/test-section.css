@@ -14,7 +14,9 @@
 .custom-slider-slide{
   flex: 0 0 20%;
 }
-.custom-slider-slide .card-wrapper {}
+.custom-slider-slide .card-wrapper {
+  background: pink;
+}
 .custom-slider-slide .card-wrapper .card{}
 .custom-slider-slide .card-wrapper .card .card-inner{}
 .custom-slider-slide .card-wrapper .card .card-inner .card-content{
