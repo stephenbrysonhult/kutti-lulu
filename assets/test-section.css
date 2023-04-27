@@ -17,7 +17,9 @@
 .custom-slider-slide .card-wrapper {
   background: pink;
 }
-.custom-slider-slide .card-wrapper .card-inner{}
-.custom-slider-slide .card-wrapper .card-inner .card-content{
+.custom-slider-slide .card-wrapper .card__inner{
+  background: yellow;
+}
+.custom-slider-slide .card-wrapper .card__inner .card-content{
   display: none;
 }
