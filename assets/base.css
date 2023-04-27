@@ -3419,3 +3419,21 @@ details-disclosure > details {
     --sparkle: url('./sparkle.gif');
   }
 }
+
+
+/* Reset */
+*{
+    --custom-color-yellow: yellow;
+    --custom-color-black: black;
+}
+
+/* Buttons */
+.button{
+    background: var(--custom-color-yellow);
+    color: var(--custom-color-black);
+    border-radius: 32px;
+}
+.button:before, .button:after{
+    border: 0 !important;
+    box-shadow: none !important;
+}
