@@ -3438,3 +3438,20 @@ details-disclosure > details {
     border: 0 !important;
     box-shadow: none !important;
 }
+.button .icon-wrap{
+    margin-left: 2rem;
+}
+/* slider-component{
+    background-color: red;
+}
+slider-component ul{
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    background: blue;
+    flex-wrap: nowrap !important;
+    column-gap: 0 !important;
+    row-gap: 0 !important;
+}
+slider-component li{} */
