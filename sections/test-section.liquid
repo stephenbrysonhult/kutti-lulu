@@ -6,7 +6,7 @@
   {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
     <div
       id="slide-{{ section.id }}-{{ forloop.index }}"
-      class="custom-slider-slidegrid__item {% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+      class="custom-slider-slide"
     >
       {% render 'card-product',
         card_product: product,
