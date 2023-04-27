@@ -26,6 +26,9 @@
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+.custom-slider-button:first-of-type(1){
+  transform: rotate(-18deg);
+}
 .custom-slider-button:nth-last-of-type(1){
   right: 0;
   left: auto;
