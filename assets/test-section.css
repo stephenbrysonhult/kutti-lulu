@@ -20,6 +20,6 @@
 .custom-slider-slide .card-wrapper .card__inner{
   background: yellow;
 }
-.custom-slider-slide .card-wrapper .card__content .card__information{
+.custom-slider-slide .card-wrapper .card__content .card__information, .custom-slider-slide .card-wrapper .card__content .card__badge{
   display: none;
 }
