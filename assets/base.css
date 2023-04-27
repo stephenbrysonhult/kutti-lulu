@@ -3447,11 +3447,47 @@ slider-component{
     padding: 0 5rem !important;
 }
 slider-component ul{
+    scroll-padding: 0 !important;
+    column-gap: 0 !important;
+    row-gap: 0 !important; 
+}
+slider-component ul:after{
+    padding-left: .01rem !important;
+    margin: 0 !important;
 }
 slider-component li{
     padding: 0 !important;
 }
 slider-component li:first-child{
-    /* margin-left: 0 !important; */
-    /* scroll-margin-left: 0 !important; */
+    margin-left: 0 !important; 
+     scroll-margin-left: 0 !important;
+}
+slider-component .slider-buttons{
+    background-color: yellow;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+slider-component .slider-buttons button{
+    background: var(--custom-color-black);
+    pointer-events: initial;
+    width: 5rem;
+    height: 5rem;
+}
+slider-component .slider-buttons button[disabled]{
+    opacity: 0.5;
+    pointer-events: none;
+}
+slider-component .slider-buttons button svg{
+    height: 1rem !important;
+    color: white !important;
+}
+slider-component .slider-counter{
+    display: none;
 }
