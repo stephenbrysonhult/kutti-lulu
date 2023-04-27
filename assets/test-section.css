@@ -16,10 +16,12 @@
   border: 1px solid red;
 }
 .custom-slider-button{
+  background: red;
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 }
 .custom-slider-button:nth-last-of-type(1){
   right: 0;
