@@ -3441,17 +3441,11 @@ details-disclosure > details {
 .button .icon-wrap{
     margin-left: 2rem;
 }
-/* slider-component{
+slider-component{
     background-color: red;
+    max-width: var(--page-width) !important;
+    padding: 0 5rem !important;
 }
 slider-component ul{
-    display: flex;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
-    background: blue;
-    flex-wrap: nowrap !important;
-    column-gap: 0 !important;
-    row-gap: 0 !important;
 }
-slider-component li{} */
+slider-component li{}
