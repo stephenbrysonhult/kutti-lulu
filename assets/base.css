@@ -3448,4 +3448,10 @@ slider-component{
 }
 slider-component ul{
 }
-slider-component li{}
+slider-component li{
+    padding: 0 !important;
+}
+slider-component li:first-child{
+    /* margin-left: 0 !important; */
+    /* scroll-margin-left: 0 !important; */
+}
