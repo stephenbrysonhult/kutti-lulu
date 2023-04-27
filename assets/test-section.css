@@ -5,4 +5,8 @@
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
   }
