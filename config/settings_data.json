@@ -139,7 +139,8 @@
       "test-section": {
         "type": "test-section",
         "settings": {
-          "products_to_show": 5
+          "collection": "products-1",
+          "products_to_show": 10
         }
       }
     },
