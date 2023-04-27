@@ -5,7 +5,7 @@
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-
+  position: relative;
   max-width: var(--custom-max-width);
   width: 100%;
   margin: 0 auto;
@@ -14,6 +14,16 @@
 .custom-slider-slide{
   flex: 0 0 20%;
   border: 1px solid red;
+}
+.custom-slider-button{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.custom-slider-button:nth-last-of-type(1){
+  right: 0;
+  left: auto;
 }
 .custom-slider-slide .card-wrapper {
   background: pink;
