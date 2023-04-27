@@ -2,8 +2,8 @@
 
 <div class="custom-slider">
   {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-    <li
-      id="Slide-{{ section.id }}-{{ forloop.index }}"
+    <div
+      id="slide-{{ section.id }}-{{ forloop.index }}"
       class="custom-slider-slide"
     >
       {% render 'card-product',
@@ -16,7 +16,7 @@
         show_quick_add: section.settings.enable_quick_add,
         section_id: section.id
       %}
-    </li>
+    </div>
   {%- endfor -%}
 </div>
 
