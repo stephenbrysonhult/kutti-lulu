@@ -135,8 +135,17 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "test-section": {
+        "type": "test-section",
+        "settings": {
+          "products_to_show": 5
+        }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
